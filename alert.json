@@ -1,0 +1,14 @@
+{
+    "alert_id": "SOC-4CD9EFA2",
+    "alert_type": "Suspicious Network Volume",
+    "indicator_type": "ip",
+    "indicator_value": "10.0.2.3",
+    "destination_host": "ubuntu-soc",
+    "destination_ip": "10.0.2.15",
+    "evidence": {
+        "packet_count": 500,
+        "time_window_seconds": 100,
+        "data_source": "traffic.pcap"
+    },
+    "analyst_question": "Is this expected activity or suspicious scanning/noise?"
+}
